@@ -4,5 +4,11 @@
     <string name="app_name">MeetingApp</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    
+    <string name="login">Login</string>
+    <string name="instructions">Login to create a link to fetch account data</string>
+    <string name="logout">Log out</string>
+    <string name="applicationId">380615018626574</string>
+    <string name="googleAPIKey" >AIzaSyAlTkoF4L4FUnqrVgxOU5G9RO6N9HTgk7I</string>
 
 </resources>
