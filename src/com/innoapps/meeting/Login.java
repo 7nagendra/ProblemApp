@@ -27,6 +27,7 @@ import com.facebook.LoggingBehavior;
 import com.facebook.Session;
 import com.facebook.SessionState;
 import com.facebook.Settings;
+import com.innoapps.meeting.services.MyNotifyService;
 
 public class Login extends Activity {
     private static final String URL_PREFIX_FRIENDS = "https://graph.facebook.com/me/friends?access_token=";
@@ -106,7 +107,8 @@ public class Login extends Activity {
     }
 
     private void onClickLogin() {
-    	Intent intent = new Intent(Login.this, ShowMap.class);
+    	//Intent intent = new Intent(Login.this, ShowMap.class);
+    	Intent intent = new Intent(Login.this, MyNotifyService.class);
         startActivity(intent);
         /*Session session = Session.getActiveSession();
         if (!session.isOpened() && !session.isClosed()) {
